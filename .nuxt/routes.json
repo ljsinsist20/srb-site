@@ -1,0 +1,112 @@
+[
+  {
+    "path": "/about",
+    "component": "D:\\\\srb-site\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "children": [
+      {
+        "name": "about",
+        "path": "",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\index.vue",
+        "chunkName": "pages/about/index"
+      },
+      {
+        "name": "about-detail",
+        "path": "detail",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\detail.vue",
+        "chunkName": "pages/about/detail"
+      },
+      {
+        "name": "about-job",
+        "path": "job",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\job.vue",
+        "chunkName": "pages/about/job"
+      },
+      {
+        "name": "about-leader",
+        "path": "leader",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\leader.vue",
+        "chunkName": "pages/about/leader"
+      },
+      {
+        "name": "about-notice",
+        "path": "notice",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\notice.vue",
+        "chunkName": "pages/about/notice"
+      },
+      {
+        "name": "about-partner",
+        "path": "partner",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\partner.vue",
+        "chunkName": "pages/about/partner"
+      },
+      {
+        "name": "about-policy",
+        "path": "policy",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\policy.vue",
+        "chunkName": "pages/about/policy"
+      },
+      {
+        "name": "about-price",
+        "path": "price",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\price.vue",
+        "chunkName": "pages/about/price"
+      },
+      {
+        "name": "about-profile",
+        "path": "profile",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\profile.vue",
+        "chunkName": "pages/about/profile"
+      },
+      {
+        "name": "about-report",
+        "path": "report",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\report.vue",
+        "chunkName": "pages/about/report"
+      },
+      {
+        "name": "about-team",
+        "path": "team",
+        "component": "D:\\\\srb-site\\\\pages\\\\about\\\\team.vue",
+        "chunkName": "pages/about/team"
+      }
+    ]
+  },
+  {
+    "name": "help",
+    "path": "/help",
+    "component": "D:\\\\srb-site\\\\pages\\\\help.vue",
+    "chunkName": "pages/help"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "D:\\\\srb-site\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "D:\\\\srb-site\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
+  },
+  {
+    "path": "/user",
+    "component": "D:\\\\srb-site\\\\pages\\\\user.vue",
+    "chunkName": "pages/user",
+    "children": [
+      {
+        "name": "user",
+        "path": "",
+        "component": "D:\\\\srb-site\\\\pages\\\\user\\\\index.vue",
+        "chunkName": "pages/user/index"
+      }
+    ]
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\srb-site\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
