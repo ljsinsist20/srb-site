@@ -85,23 +85,58 @@ export default {
     return {
       step: 1, //注册步骤
       userInfo: {
-        userType: 1,
+        userType: 1
       },
       sending: false, // 是否发送验证码
-      second: 10, // 倒计时间
-      leftSecond: 0, //剩余时间
+      second: 60, // 倒计时间
+      leftSecond: 0 //剩余时间
     }
   },
 
   methods: {
     //发短信
-    send() {},
+    send() {
+      // if (!this.userInfo.mobile) {
+      //   this.$message.error('请输入手机号')
+      //   return
+      // }
+      let reg = /^1[3456789]\d{9}$/
+      if (!reg.test(this.userInfo.mobile)) {
+        this.$message.error('请输入正确手机号')
+        return
+      }
+
+      if (this.sending) {
+        return
+      }
+      this, (this.sending = true)
+
+      this.timeDown()
+
+      this.$axios.$get('/api/sms/send/' + this.userInfo.mobile).then(response => {
+        this.$message.success(response.message)
+      })
+    },
 
     //倒计时
-    timeDown() {},
+    timeDown() {
+      this.leftSecond = this.second
+      const timmer = setInterval(() => {
+        this.leftSecond--
+        if (this.leftSecond <= 0) {
+          clearInterval(timmer)
+          this.leftSecond = this.second
+          this.sending = false
+        }
+      }, 1000)
+    },
 
     //注册
-    register() {},
-  },
+    register() {
+      this.$axios.$post('/api/core/userInfo/register', this.userInfo).then(response => {
+        this.step = 2
+      })
+    }
+  }
 }
 </script>

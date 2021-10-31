@@ -40,15 +40,20 @@ export default {
   data() {
     return {
       userInfo: {
-        userType: 1,
+        userType: 1
       },
-      isValid: true, //表单校验是否成功
+      isValid: true //表单校验是否成功
     }
   },
 
   methods: {
     //登录
-    login() {},
-  },
+    login() {
+      this.$axios.$post('/api/core/userInfo/login', this.userInfo).then(response => {
+        cookie.set('userInfo', response.data.userInfo)
+        window.location.href = '/user'
+      })
+    }
+  }
 }
 </script>
