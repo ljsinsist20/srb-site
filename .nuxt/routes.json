@@ -8,87 +8,102 @@
         "name": "about",
         "path": "",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\index.vue",
-        "chunkName": "pages/about/index"
+        "chunkName": "pages/about/index",
+        "_name": "_47952644"
       },
       {
         "name": "about-detail",
         "path": "detail",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\detail.vue",
-        "chunkName": "pages/about/detail"
+        "chunkName": "pages/about/detail",
+        "_name": "_4362b1cf"
       },
       {
         "name": "about-job",
         "path": "job",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\job.vue",
-        "chunkName": "pages/about/job"
+        "chunkName": "pages/about/job",
+        "_name": "_68055a2f"
       },
       {
         "name": "about-leader",
         "path": "leader",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\leader.vue",
-        "chunkName": "pages/about/leader"
+        "chunkName": "pages/about/leader",
+        "_name": "_6fa87af2"
       },
       {
         "name": "about-notice",
         "path": "notice",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\notice.vue",
-        "chunkName": "pages/about/notice"
+        "chunkName": "pages/about/notice",
+        "_name": "_357f94d6"
       },
       {
         "name": "about-partner",
         "path": "partner",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\partner.vue",
-        "chunkName": "pages/about/partner"
+        "chunkName": "pages/about/partner",
+        "_name": "_40433e8c"
       },
       {
         "name": "about-policy",
         "path": "policy",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\policy.vue",
-        "chunkName": "pages/about/policy"
+        "chunkName": "pages/about/policy",
+        "_name": "_3fba33a0"
       },
       {
         "name": "about-price",
         "path": "price",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\price.vue",
-        "chunkName": "pages/about/price"
+        "chunkName": "pages/about/price",
+        "_name": "_0dfac98a"
       },
       {
         "name": "about-profile",
         "path": "profile",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\profile.vue",
-        "chunkName": "pages/about/profile"
+        "chunkName": "pages/about/profile",
+        "_name": "_9f4695ca"
       },
       {
         "name": "about-report",
         "path": "report",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\report.vue",
-        "chunkName": "pages/about/report"
+        "chunkName": "pages/about/report",
+        "_name": "_1774759c"
       },
       {
         "name": "about-team",
         "path": "team",
         "component": "D:\\\\srb-site\\\\pages\\\\about\\\\team.vue",
-        "chunkName": "pages/about/team"
+        "chunkName": "pages/about/team",
+        "_name": "_cfd4d14a"
       }
-    ]
+    ],
+    "_name": "_306cc47e"
   },
   {
     "name": "help",
     "path": "/help",
     "component": "D:\\\\srb-site\\\\pages\\\\help.vue",
-    "chunkName": "pages/help"
+    "chunkName": "pages/help",
+    "_name": "_69a4fd60"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "D:\\\\srb-site\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_19cc425a"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "D:\\\\srb-site\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "chunkName": "pages/register",
+    "_name": "_41a2ff7c"
   },
   {
     "path": "/user",
@@ -99,14 +114,17 @@
         "name": "user",
         "path": "",
         "component": "D:\\\\srb-site\\\\pages\\\\user\\\\index.vue",
-        "chunkName": "pages/user/index"
+        "chunkName": "pages/user/index",
+        "_name": "_2a0b1458"
       }
-    ]
+    ],
+    "_name": "_ee54762c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\srb-site\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_50249f43"
   }
 ]

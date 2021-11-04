@@ -115,6 +115,16 @@ export default {
         return
       }
       userInfo = JSON.parse(userInfo)
+      this.$axios({
+        url: '/api/core/userInfo/checkToken',
+        methods: 'get',
+        headers: {
+          token: userInfo.token
+        }
+      }).then(response => {
+        this.userInfo = userInfo
+      })
+
       this.userInfo = userInfo
     },
 
